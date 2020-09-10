@@ -56,7 +56,7 @@ public class Calculator
                         System.out.println("Enter second number: ");
                         double d = sc.nextDouble();
                         double divResult = division(c, d);
-                        System.out.println("Result: " + c + " / " + c + " = " + divResult);
+                        System.out.println("Result: " + c + " / " + d + " = " + divResult);
                     } catch (Exception e) {
                         System.out.println("Something went wrong.");
                     }
